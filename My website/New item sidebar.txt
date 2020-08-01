@@ -1,0 +1,4 @@
+new side bar wrapper
+<li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#News">Feeds</a>
+      </li>

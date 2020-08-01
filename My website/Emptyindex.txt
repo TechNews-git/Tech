@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tech News</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" shrink-to-fit="no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+<!-- favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<!-- favicons -->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/custom-responsive-style.css">
+<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="scripts/plugin-active.js"></script>
+</head>
+<body id="MainBody">
+  <header>
+    <div class="mobile-logo">
+    <a href=""><img src="images/ds-logo.png"></a>
+  </div>
+  <a class="menu-toggle rounded" href="#">
+    <i class="fa fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="smooth-scroll" href="#Header"></a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Banner">Tech News</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Latest">Latest Tech News</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#G">Google Section</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#M">Microft Section</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#A">Apple Section</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#NewsSlideshow">Hot Three</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#OurWork">Our Work</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#OurBlog">Our Blog</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Testimonials">Testimonials</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  </header>
+<section id="Banner">
+  <div class="logo">
+    <img style="width: 40%; height :4 ; padding-left :80px; padding-top :120px" src="https://github.com/SumukhaS291299/Tech-News/blob/master/images/Coding_Crib.PNG?raw=true">
+  </div>
+  <div class="blacksection">
+    <h1>Tech<br>News</h1>
+  </div>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  
+  .zoom1 {
+    transition: transform .2s;
+  }
+  
+  .zoom1:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  </style>
+
+
+</section>
+<a href="#News" class="mscroll"><img src="images/mouse-icon.png" alt="mouse icon"></a>
+
+<div>
+<div class="News">
+  <h1 id="Latest">Latest News</h1>
+  <div id="Top">
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 8px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
+      }
+      </style>
+      <div class="row">
+        <div class="column">
+          <img src= alt="Snow" style="width:100%">
+          <p class="Fit"><b><a href="" target="_blank">  </a></b></p>
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+          <p class="Fit"><b><a href="" target="_blank">  </a></b></p>
+        </div>
+        <div class="column">
+          <img src="" alt="Mountains" style="width:100%">
+          <p class="Fit"><b><a href="" target="_blank">  </a></b></p>
+        </div>
+      </div>
+
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 500px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+        <div class="row">
+          <div class="column">
+            <img src= alt="Snow" style="width:100%">
+            <p class="Fit"><b><a href="" target="_blank">  </a></b></p>
+          </div>
+          <div class="column">
+            <img src="" alt="Forest" style="width:100%">
+            <p class="Fit"><b><a href="" target="_blank">   </a></b></p>
+          </div>
+          <div class="column">
+            <img src="" alt="Mountains" style="width:100%">
+            <p class="Fit"><b><a href="" target="_blank">  </a></b></p>
+          </div>
+        </div>
+
+    </div>
+
+    <div id="G">
+    <h2 style="text-align: left;color:darkslateblue">Top Google News of the week</h2>
+    
+    
+      
+       
+      
+    <!-- <div class="zoom1">
+      <h2></h2><a href="https://gadgets.ndtv.com/mobiles/news/samsung-galaxy-a42-5g-5000mah-battery-2021-launch-report-2268816" target="_blank">Samsung Galaxy A42 5G Smartphone Tipped to Feature 5,000mAh Battery</a></h2>
+    </div>  -->
+    
+
+
+    </div>
+
+  <div id="M">
+  <h2  style="text-align: left;color:orangered">Top Microsoft News of the week</h2>
+  
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
+    <div class="row">
+      <div class="column">
+        <img src= alt="Snow" style="width:100%">
+        <p class="Fit"><b><a href="" target="_blank">   </a></b></p>
+      </div>
+      <div class="column">
+        <img src="" alt="Forest" style="width:100%">
+        <p class="Fit"><b><a href="" target="_blank">   </a></b></p>
+      </div>
+      <div class="column">
+        <img src="" alt="Mountains" style="width:100%">
+        <p class="Fit"><b><a href="" target="_blank"></a></b></p>
+      </div>
+    </div>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
+      }
+      </style>
+      <div class="row">
+        <div class="column">
+          <img src= alt="Snow" style="width:100%">
+          <p class="Fit"><b><a href="" target="_blank"></a></b></p>
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+          <p class="Fit"><b><a href="" target="_blank">   </a></b></p>
+        </div>
+        <div class="column">
+          <img src="" alt="Mountains" style="width:100%">
+          <p class="Fit"><b><a href="" target="_blank">   </a></b></p>
+        </div>
+      </div>
+
+  <!-- <div class="zoom1">
+  </div>
+
+  </div> -->
+
+  <div id="A">
+  <h2 style="text-align: left;color:silver">Top Apple News of the week</h2>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
+    <div class="row">
+      <div class="column">
+        <img src= alt="Snow" style="width:100%">
+        <p class="Fit"><b><a href="" target="_blank">   </a></b></p>
+      </div>
+      <div class="column">
+        <img src="" alt="Forest" style="width:100%">
+        <p class="Fit"><b><a href="" target="_blank">   </a></b></p>
+      </div>
+      <div class="column">
+        <img src=" " alt="Mountains" style="width:100%">
+        <p class="Fit"><b><a href="" target="_blank">   </a></b></p>
+      </div>
+    </div>
+
+  <!-- <div class="zoom1">
+
+    
+  </div> -->
+
+  </div>
+ </div>
+
+  <section id="NewsSlideshow">
+   <style>
+   *{box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      background-color: rgb(43, 38, 38);
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Caption text */
+    .text {
+      color: #0f1302c5;
+      font-size: 20px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #8d1616;
+      font-size: 12px;
+      padding: 8px 12px;
+      position:absolute ;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: silver;
+      border-radius: 20%;
+      display: inline-block;
+      transition: background-color 0.6s ease-in-out;
+    }
+
+    .active {
+      background-color: #140404;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .2} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+      
+      <h1 style="color: beige;"><strong>Hot Three</strong></h1>
+    
+    <div class="slideshow-container">
+          <!-- SlideShow Images -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img style="max-width: 100%;height: auto;" src="" >
+      <div class="text">Caption Text 1</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img style="max-width: 100%;height: auto;" src="" >
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img style="max-width: 100%;height: auto;" src="" >
+      <div class="text">Caption Three</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+  </section>
+ </section>
+</div>
+</div>
+
+<section id="OurWork">
+  <div class="container">
+    <h2>Our Work</h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <div class="grey-box">
+          <img style="max-width: 100%;height: auto;" src="images/ds-logo.png" alt="Sponser">
+          <div class="sponser">
+            <h4>Credits</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+        <div class="each-work space">
+          <img style="width: 80%;height: 60%;" src="images/Git.jpg" alt="">
+        </div>
+         <div class="each-work">
+          <img style="width: 80%;height: 60%;" src="images/Gnews.jpg" alt="">
+        </div>
+         <div class="each-work">
+          <img style="width: 80%;height: 60%;" src="images/MicroWork.png" alt="">
+        </div>
+         <div class="each-work">
+          <img style="width: 80%;height: 60%;" src="images/Moz.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+<section id="OurBlog"> 
+  <div class="container">
+    <h2>Our Blog</h2>
+    <p>A frequent, hierarchical, chronological publication of<br /> Technology news and Web links.</p>
+    <div class="blog-wrap">
+      <div class="each-block clearfix one"> 
+        <div class="icon">
+          <img src="images/blog-icon.png">
+        </div>
+        <div class="blog-intro"> 
+          <div class="zoom1">
+          <h3>Stuck at home..</h3>
+          <p>When a group of ambitious designers meet, you know something hot is brewing. Take a closer look and you’ll find them murmuring away..</p>
+        </div>
+      </div>
+      </div>
+      <div class="each-block clearfix two"> 
+        <div class="icon">
+          <img src="images/blog-icon.png">
+        </div>
+        <div class="blog-intro"> 
+          <div class="zoom1">
+          <h3>Opening New Doors for..</h3>
+          <p>Compelling creative ambitious  play a major role in the success  program..</p>
+        </div>
+      </div>
+      </div>
+      <div class="each-block clearfix three"> 
+        <div class="icon">
+          <img src="images/blog-icon.png">
+        </div>
+        <div class="blog-intro"> 
+          <div class="zoom1">
+          <h3>Your Vision, our Future..</h3>
+          <p>At Position², we combine creative thinking and best practices for each channel to develop engaging and effective assets to enhance your brand.. </p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="learnmore">
+      <a class="smooth-scroll"  href="#Contact"><span>Learn more</span></a>
+    </div>
+  </div>
+</section>
+<section id="Testimonials">
+   <div class="container">
+    <h2>Testimonials</h2>
+    <p>I just wanted to take a moment to appreciate the great work you guys are doing for our web projects. Thanks for your abundant patience and technical support whenever required, even during the odd hours.</p>
+    <div class="testi-wrapper">
+        <div class="latest-testimonials each-testi">
+          <div class="division">
+            <span>03.</span> 
+            <div class="title">
+              <h4>Testimonials</h4>
+              <h6>Read our audience thoughts..</h6>
+            </div>
+          </div>
+          <p>You have surely made an impression with the awesome above!But, here is your chance to make the most of it. Display testimonials and boost your website conversions!</p>
+        </div>
+        <div class="old-testimonials each-testi">
+          <p>I'm thrilled with the website that you have developed for sharing Technology related news,liked user interface, it's smooth riveting/p>
+          <div class="profile">
+            <img src="images/user-profile-one.png" alt="">
+            <div class="designation">
+              <h6>G Shiva Shankar</h6>
+              <p>ADE All India Radio</p>
+            </div>
+          </div>
+        </div>
+        <div class="old-testimonials each-testi no-margin">
+          <p>From a metrics perspective, the amount of efficiency we've been able to wring from the Position2 PPC channel in the face of really interesting challenges has been phenomenal.</p>
+          <div class="profile">
+            <img src="images/user-profile-two.png" alt="">
+            <div class="designation">
+              <h6>Jeff</h6>
+              <p>Chief Commercial Officer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+</section>
+<footer id="Contact">
+  <div class="container">
+    <p>If you have an exciting suggestion, feel <br>free to get in touch.</p>
+    <a href="mailto:sumukhashivashankar@outlook.com?subject = Feedback&body = Message" class="email-btn"><span><i class="fa fa-envelope-o" aria-hidden="true"></i> Email Me</span></a>
+    <ul class="social-icons">
+      <li><a href="https://mobile.twitter.com/SumukhaS2?s=09"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li><a href="mailto:1by18is120@bmsit.in?subject = Feedback&body = Message"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+      <li><a href="mailto:sumukhashivashankar@gmail.com?subject = Feedback&body = Message"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</footer>
+ <div class="Thanks"><p>Thanks For visiting, please come again</p>
+</div>
+</body>
+</html>

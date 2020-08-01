@@ -1,0 +1,79 @@
+<style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
+      }
+      </style>
+      <div class="row">
+        <div class="column">
+          <img src=https://www.notebookcheck.net/fileadmin/_processed_/5/3/csm_kratos_ps5_d334c4617e.jpg alt="Snow" style="width:100%">
+          <p><b><a href="https://www.notebookcheck.net/PS5-exclusives-God-of-War-sequel-rumored-for-2021-and-Sony-is-planning-a-surprise-franchise-revival-for-the-PlayStation-5.482915.0.html" target="_blank">PS5 exclusives: God of War sequel rumored for 2021 and Sony is planning a surprise franchise revival for the PlayStation 5</a></b></p>
+        </div>
+        <div class="column">
+          <img src="https://www.xda-developers.com/files/2020/07/P1000173_compressed-810x298_c.jpg" alt="Forest" style="width:100%">
+          <p><b><a style="color: brown;" href="https://www.xda-developers.com/oneplus-nord-unique-interaction-with-shawn-liu-head-product-oneplus-nord/" target="_blank">Why the OnePlus Nord is so familiar, yet so unique: In conversation with Shawn Liu, Head of Product</a></b></p>
+        </div>
+        <div class="column">
+          <img src="https://i.gadgets360cdn.com/large/galaxy_a41_1584612774027.jpg?output-quality=80&output-format=webp" alt="Mountains" style="width:100%">
+          <p><b><a style="color: brown;" href="https://gadgets.ndtv.com/mobiles/news/samsung-galaxy-a42-5g-5000mah-battery-2021-launch-report-2268816" target="_blank">Samsung Galaxy A42 5G Smartphone Tipped to Feature 5,000mAh Battery</a></b></p>
+        </div>
+      </div>
+
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 500px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+        <div class="row">
+          <div class="column">
+            <img src=https://www.notebookcheck.net/fileadmin/_processed_/5/3/csm_kratos_ps5_d334c4617e.jpg alt="Snow" style="width:100%">
+            <p><b><a href="https://www.notebookcheck.net/PS5-exclusives-God-of-War-sequel-rumored-for-2021-and-Sony-is-planning-a-surprise-franchise-revival-for-the-PlayStation-5.482915.0.html" target="_blank">PS5 exclusives: God of War sequel rumored for 2021 and Sony is planning a surprise franchise revival for the PlayStation 5</a></b></p>
+          </div>
+          <div class="column">
+            <img src="https://www.xda-developers.com/files/2020/07/P1000173_compressed-810x298_c.jpg" alt="Forest" style="width:100%">
+            <p><b><a style="color: brown;" href="https://www.xda-developers.com/oneplus-nord-unique-interaction-with-shawn-liu-head-product-oneplus-nord/" target="_blank">Why the OnePlus Nord is so familiar, yet so unique: In conversation with Shawn Liu, Head of Product</a></b></p>
+          </div>
+          <div class="column">
+            <img src="https://i.gadgets360cdn.com/large/galaxy_a41_1584612774027.jpg?output-quality=80&output-format=webp" alt="Mountains" style="width:100%">
+            <p><b><a style="color: brown;" href="https://gadgets.ndtv.com/mobiles/news/samsung-galaxy-a42-5g-5000mah-battery-2021-launch-report-2268816" target="_blank">Samsung Galaxy A42 5G Smartphone Tipped to Feature 5,000mAh Battery</a></b></p>
+          </div>
+        </div>

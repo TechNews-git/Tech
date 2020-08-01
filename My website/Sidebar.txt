@@ -1,0 +1,22 @@
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="smooth-scroll" href="#Header"></a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#News">Feeds</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#OurWork">Our Work</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#OurBlog">Our Blog</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Testimonials">Testimonials</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Contact">Contact</a>
+      </li>
+    </ul>
+  </nav>

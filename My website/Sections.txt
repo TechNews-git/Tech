@@ -1,0 +1,26 @@
+STYLE
+#News {
+	padding: 60px 0 90px 0;
+  text-align: center;
+  background-color: #ca15e2;
+}
+#News h2 {
+	color: rgb(224, 180, 180);
+	font: 68px/125% 'Futura PT book';
+  margin-bottom: 90px;
+}
+/* Our Digital News style ends here */
+
+/* Our Digital NewsSlideshow style begins here */
+#NewsSlideshow {
+	padding: 60px 0 90px 0;
+  text-align: center;
+  background-color: #007bff;
+}
+#NewsSlideshow h2 {
+	color: rgb(173, 36, 36);
+	font: 68px/125% 'Futura PT book';
+  margin-bottom: 90px;
+
+}
+/* Our Digital News style ends here */
